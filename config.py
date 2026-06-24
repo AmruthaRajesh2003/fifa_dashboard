@@ -1,2 +1,4 @@
-API_KEY = "f7085d9d5b964a1cb9cfed7d84148ed5"
-BASE_URL = "https://api.football-data.org/v4"
+import os
+
+API_KEY = os.getenv("API_KEY")
+SECRET_KEY = os.getenv("SECRET_KEY")
